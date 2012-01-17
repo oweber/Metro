@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="541a454f-f00e-4072-a153-b16971de050b" Version="1.0.0.0" Publisher="CN=nexiles" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>HelloWorld</DisplayName>
+    <Description>HelloWorld</Description>
+    <PublisherDisplayName>nexiles</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="HelloWorld" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="HelloWorld" ForegroundText="light" BackgroundColor="#0084FF">
+        <DefaultTile ShowName="true" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
